@@ -16,8 +16,11 @@ A user should be able to follow another user. Following doesn't have to be recip
 ### URL : GET /users/{userId}/timeline
 A user should be able to see a list of the messages posted by all the people they follow, in reverse chronological order.
 
-##Start Application
+## Start Application
+
 To start the application, we need to run the following command :
 ```mvn clean package spring-boot:run```
+
+## Documentation
 
 **Documentation can be found in target\generated-docs**
